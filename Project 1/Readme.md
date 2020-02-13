@@ -1,7 +1,7 @@
 # Learning Objective
 Write a simple data processing app using source control 
 
-## Detialed Requirement
+## Detailed Requirement
 Create a Github account and write a simple app that does one of the following:
   - Take an image and resize it to a square size
   - Take a text file and spell check it 
