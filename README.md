@@ -1,8 +1,8 @@
-#Learning Objective
+# Learning Objective
 
 Write a simple data processing app using source control
 
-#Detailed Requirement
+# Detailed Requirement
 
 Create a Github account and write a simple app that does one of the following:
 
