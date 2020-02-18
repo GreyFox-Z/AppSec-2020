@@ -21,7 +21,10 @@ def image_resize(image, input_file):
     new_image = image.resize((new_size, new_size))
     stringlist = re.findall(r'(.*?)\.', input_file)
     filename = "".join(stringlist)
-    new_image.save(filename + '_modified.jpg')
+    new_filename = filename + '_modified.jpg'
+    new_image.save(new_filename)
+
+    return new_filename
 
 
 # Parser creation
@@ -44,8 +47,9 @@ args = parser.parse_args()
 try:
     input_file = args.image
     image = Image.open(input_file)
-    image_resize(image, input_file)
+    newfile_name = image_resize(image, input_file)
     print("Resize Completed")
+    print("Modified Image could be found as " + newfile_name)
 
 except SyntaxError:
     print('[Fatal Error] Syntax Error')
