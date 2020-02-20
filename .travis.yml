@@ -14,5 +14,8 @@ install:
   - pip install pillow
 script: # run tests
   - python Main.py
+branches:
+  only:
+    - Project-1-Data-Processing-Application
 after_success:
   - codecov # submit coverage
