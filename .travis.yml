@@ -12,6 +12,7 @@ before_install:
   - pip install codecov
 install:
   - pip install pillow
-script: pytest # run tests
+script: # run tests
+  - coverage run Project 1/Main.py
 after_success:
   - codecov # submit coverage
