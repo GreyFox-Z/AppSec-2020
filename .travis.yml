@@ -9,10 +9,8 @@ before_install:
   - pip install -U pytest
   - pip install codecov
   - pip install --upgrade pip
-  - pip install -c minimum-constraints.txt pip
-  - pip install -c minimum-constraints.txt setuptools
-  - pip install -c minimum-constraints.txt wheel
-  - pip install -c minimum-constraints.txt pbr
+  - pip install setuptools
+  - pip install wheel
 install:
   - pip install Pillow
   - pip install image
