@@ -1,6 +1,5 @@
 language: python
 python:
-  - "2.7"
   - "3.6"
   - "3.7"
 cache: pip
@@ -14,7 +13,7 @@ install:
 script: # run tests
   - "git clone https://github.com/GreyFox-Z/AppSec-2020"
   - "cd AppSec-2020"
-  - "sudo ./Image_Size_Modifier.py Test.jpg"
+  - "sudo python Image_Size_Modifier.py Test.jpg"
   - nosetests --with-coverage
 branches:
   only:
