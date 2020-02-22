@@ -12,9 +12,6 @@ before_install:
 install:
   - python -m pip install Pillow
 script: # run tests
-  - "git clone https://github.com/GreyFox-Z/AppSec-2020"
-  - "cd AppSec-2020"
-  - "sudo python Image_Size_Modifier.py Test.jpg"
   - nosetests --with-coverage
   - coverage run Image_Size_Modifier.py Test.jpg
 branches:
