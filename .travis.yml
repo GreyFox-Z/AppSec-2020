@@ -13,7 +13,7 @@ install:
   - pip install pillow
 script: # run tests
   - pytest
-  - "sudo ./Image_Size_Modifier Test.jpg"
+  - "sudo ./Image_Size_Modifier.py Test.jpg"
   - nosetests --with-coverage
 branches:
   only:
