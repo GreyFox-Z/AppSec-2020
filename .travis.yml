@@ -5,15 +5,11 @@ python:
 cache: pip
 before_install:
   - python --version
-  - pip install -U pip
+  - python -m pip install pip
   - pip install -U pytest
   - pip install codecov
-  - pip install --upgrade pip
-  - pip install setuptools
-  - pip install wheel
 install:
-  - pip install Pillow
-  - pip install image
+  - python -m pip install Pillow
 script: # run tests
   - "git clone https://github.com/GreyFox-Z/AppSec-2020"
   - "cd AppSec-2020"
