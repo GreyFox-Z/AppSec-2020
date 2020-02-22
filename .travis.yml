@@ -3,7 +3,6 @@ python:
   - "2.7"
   - "3.6"
   - "3.7"
-  - "3.8"
 cache: pip
 before_install:
   - python --version
@@ -14,6 +13,8 @@ install:
   - pip install pillow
 script: # run tests
   - pytest
+  - "sudo ./Image_Size_Modifier Test.jpg"
+  - nosetests --with-coverage
 branches:
   only:
     - Project-1-Data-Processing-Application
