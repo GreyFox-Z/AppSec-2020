@@ -48,8 +48,8 @@ try:
     input_file = args.image
     image = Image.open(input_file)
     newfile_name = image_resize(image, input_file)
-    print("Resize Completed")
-    print("Modified Image could be found as " + newfile_name)
+    print("Completed...")
+    print("The modified Image could be found as " + newfile_name)
 
 except SyntaxError:
     print('[Fatal Error] Syntax Error')
