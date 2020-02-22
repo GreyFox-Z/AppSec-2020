@@ -7,10 +7,10 @@ before_install:
   - python --version
   - pip install -U pip
   - pip install -U pytest
-  - pip install image
   - pip install codecov
 install:
-  - pip install pillow
+  - pip install Pillow
+  - pip install image
 script: # run tests
   - "git clone https://github.com/GreyFox-Z/AppSec-2020"
   - "cd AppSec-2020"
