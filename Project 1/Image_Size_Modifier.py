@@ -9,8 +9,11 @@ import re
 
 # image resize function:
 def image_resize(image, input_file):
+    # Check the original Size
     size = image.size
     (width, height) = size
+
+    # Comparing the width and heidght
     if width == height:
         new_size = width
     elif width < height:
@@ -18,8 +21,11 @@ def image_resize(image, input_file):
     else:
         new_size = height
 
+    # Resize the original image
     new_image = image.resize((new_size, new_size))
-    stringlist = re.findall(r'(.*?)\.', input_file)  # Update the modified file name
+
+    # Update the modified file name
+    stringlist = re.findall(r'(.*?)\.', input_file)
     filename = "".join(stringlist)
     new_filename = filename + '_modified.jpg'
     new_image.save(new_filename)
