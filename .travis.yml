@@ -16,6 +16,7 @@ script: # run tests
   - "cd AppSec-2020"
   - "sudo python Image_Size_Modifier.py Test.jpg"
   - nosetests --with-coverage
+  - coverage run Image_Size_Modifier.py
 branches:
   only:
     - Project-1-Data-Processing-Application
