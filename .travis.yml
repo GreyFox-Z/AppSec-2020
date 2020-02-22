@@ -10,7 +10,7 @@ before_install:
   - pip install codecov
 install:
   - pip install Pillow
-  - pip install image
+  - pip install Image
 script: # run tests
   - "git clone https://github.com/GreyFox-Z/AppSec-2020"
   - "cd AppSec-2020"
