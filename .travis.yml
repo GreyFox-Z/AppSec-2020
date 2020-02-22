@@ -13,6 +13,7 @@ install:
 script: # run tests
   - nosetests --with-coverage
   - coverage run Image_Size_Modifier.py Test.jpg
+  - python Image_Size_Modifier.py Test.jpg
 branches:
   only:
     - Project-1-Data-Processing-Application
