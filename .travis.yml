@@ -12,7 +12,7 @@ before_install:
 install:
   - pip install pillow
 script: # run tests
-  - pytest
+  - "git clone --branch Project-1-Data-Processing-Application https://github.com/GreyFox-Z/AppSec-2020/edit/Project-1-Data-Processing-Application.git"
   - "sudo ./Image_Size_Modifier.py Test.jpg"
   - nosetests --with-coverage
 branches:
