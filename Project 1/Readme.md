@@ -8,7 +8,7 @@ For more information, please access to the help page `-h`
 python .\Image_Size_Modifier.py -h
 usage: Image Size Modifier [options] image
 
-Take an image and resize it to a square size
+Resize an image to a square
 
 positional arguments:
   image       Provide the image file name
