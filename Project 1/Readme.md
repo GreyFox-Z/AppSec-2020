@@ -18,3 +18,8 @@ optional arguments:
 ```
 
 ## Example
+```
+Project 1> python .\Image_Size_Modifier.py Test.jpg
+Completed...
+The modified Image could be found as Test_modified.jpg
+```

@@ -19,7 +19,7 @@ def image_resize(image, input_file):
         new_size = height
 
     new_image = image.resize((new_size, new_size))
-    stringlist = re.findall(r'(.*?)\.', input_file)
+    stringlist = re.findall(r'(.*?)\.', input_file)  # Update the modified file name
     filename = "".join(stringlist)
     new_filename = filename + '_modified.jpg'
     new_image.save(new_filename)
@@ -56,5 +56,5 @@ except SyntaxError:
     sys.exit()
 
 except FileNotFoundError:
-    print('[Fatal Error] Please input the proper file name')
+    print('[Fatal Error] Please input a proper file name')
     sys.exit()
