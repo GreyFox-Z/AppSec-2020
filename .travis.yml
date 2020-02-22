@@ -7,14 +7,12 @@ cache: pip
 before_install:
   - python --version
   - python -m pip install --upgrade pip
-  - pip install -U pytest
   - pip install codecov
 install:
   - python -m pip install Pillow
 script: # run tests
   - nosetests --with-coverage
   - coverage run Image_Size_Modifier.py Test.jpg
-  - pytest run Image_Size_Modifier.py Test.jpg
 branches:
   only:
     - Project-1-Data-Processing-Application
