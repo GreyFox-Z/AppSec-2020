@@ -1,16 +1,21 @@
 # Image Size Modifier
 ## Learning Objective
 
-Write a simple data processing app using source control
+Based on what you know about the various typed of vulnerabilities that an application can be subject to, I'd like you to write a small app that is vulnerable to at least two security issues. 
 
 ## Detailed Requirement
 
-Create a Github account and write a simple app that does one of the following:
+You can write a brand new app or build on your assignment from Lab 1. Your deliverable can either be a virtual machine running your app or instructions on how to install and run it. Please also provide a short write up of the vulnerabilities you’ve included. 
 
-- Take an image and resize it to a square size
-- Take a text file and spell check it
+Examples:
 
-This app can be written in any language but keep in mind we will build upon it in subsequent lessons. You are free to work on your own or in pairs.
+    XSS
+    CSRF
+    SQLi
+    Buffer Overflow
+    Weak authentication 
+    Vulnerable dependency
+
 
 ## Deliverables
 
