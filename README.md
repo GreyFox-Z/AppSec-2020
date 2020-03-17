@@ -1,4 +1,4 @@
-# Image Size Modifier
+# A vulnerable Web Application
 ## Learning Objective
 
 Based on what you know about the various typed of vulnerabilities that an application can be subject to, I'd like you to write a small app that is vulnerable to at least two security issues. 
