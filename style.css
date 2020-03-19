@@ -1,0 +1,167 @@
+body {
+    /*background-image: url(https://am-prod-client-files.ppub-tmaws.io/49ersnew/s3fs-public/images/interstitial/background/17TIX_ACCOUNT-MANAGER_BACKGROUND_4.jpg);*/
+    background-image: url('bg.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-width: 1680px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+}
+
+body:focus {
+    outline: none;
+}
+
+#header {
+    /*background-color: #AA0000;*/
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-logo {
+    /*background-color: #AA0000;*/
+    top: 0;
+    left: 10px;
+    width: 50px;
+    float: left;
+}
+
+#header-text {
+    /*background-color: #AA0000;*/
+    top: 32px;
+    left: 50%;
+    padding-left: 42%;
+    padding-top: 32px;
+    float: center;
+    font-size: 40px;
+    /* the space between content and border */
+    color: black;
+    font-weight: bold;
+}
+
+#bottom {
+    /*background-color: #1F2120;*/
+    bottom: 10px;
+    padding-top: 40px;
+    width: 800px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#copyright {
+    /*background-color: #1F2120;*/
+    position:absolute;
+    bottom: 10px;
+    width: 800px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    padding: 0px 0 0px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#content {
+    padding-top: 80px;
+    padding-bottom: 480px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/*
+#content table {
+    background-color: white;
+    border: 1px white solid;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+*/
+
+#login-box {
+    width: 350px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    /*color: #fff;*/
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+
+}
+
+#login-box p{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#login-box input[type="account"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#login-box input[type="submit"]{
+    background-color: #AA0000;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 50%;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+#login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #B3995D;
+    color: white;
+}
+
+
+#box-header{
+    font-size: 14px;
+    height: 40px;
+}
+
+#box-note{
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+#message {
+    padding-bottom: 150px;
+    width: 800px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
