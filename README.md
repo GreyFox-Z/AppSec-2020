@@ -1,11 +1,11 @@
-# A vulnerable Web Application
+# A Vulnerable Web Application
 ## Learning Objective
 
 Based on what you know about the various typed of vulnerabilities that an application can be subject to, I'd like you to write a small app that is vulnerable to at least two security issues. 
 
 ## Detailed Requirement
 
-You can write a brand new app or build on your assignment from Lab 1. Your deliverable can either be a virtual machine running your app or instructions on how to install and run it. Please also provide a short write up of the vulnerabilities you’ve included. 
+You can write a brand new app or build on your assignment from Lab 1. 
 
 Examples:
 
@@ -19,8 +19,9 @@ Examples:
 
 ## Deliverables
 
-a link to your github repo, which includes a README.md on how to run your code. How to Run the Code
+Your deliverable can either be a virtual machine running your app or instructions on how to install and run it. Please also provide a short write up of the vulnerabilities you’ve included. 
 
+## Installation 
 ## How to run the script
 The script could be executed as `python Image_Size_Modifier.py [image name]`
 

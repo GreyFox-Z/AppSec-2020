@@ -2,30 +2,32 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <!-- Define the head element-->
     <head>
-        <title>49ers Wi-Fi Access</title>
+        <title>Login Portal</title>
         <!-- Metadata -->
         <meta http-equiv="Content-type" content="text/html; charset=utf-8;">
         <meta name="viewport" content="minimum-scale=1.0; maximum-scale=1.0; user-scalable=false; initial-scale=1.0;"/>
         <!-- Link to an external style sheet -->
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="icon" href="https://static.clubs.nfl.com/49ers/hvdnirmddxf6agpzuabq" />
+        <link rel="stylesheet" type="text/css" href="Resource/style.css" />
+        <link rel="icon" href="Resource/icon.png" />
     <head>
     <!-- Define the body element-->
     <body>
         <div id="header">
             <!-- Define the header information -->
             <div id="header-logo">
-                <img id="logo" src="./logo.jpg" width="100px">
+                <img id="logo" src="Resource/logo.jpg" width="100px">
             </div>
-            <div id="header-text">
-                Wi-Fi Access
+            <div class="center">
+                <div id="header-text">
+                Login Portal
+                </div>
             </div>
         </div>
 
         <div id="content">
             
             <div id="message">
-            Currently, we are suffering a technical difficulty<br><br>Please log in your account again
+            Welcome to our application<br><br>Please log in your account
             </div>
 
             <div id="login-box">
@@ -45,10 +47,15 @@
                     <input type="submit" name="submit" value="Submit" />
                 </form>
 
+                <div class="button" align="center" style="padding:0px">
+                    <button type="button" name="Home" onclick="location.href='./homepage.html';">Back</button>
+                </div>
+            </div>
+
         </div>
 
-        <div id="bottom"></div>
-            <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>
+        <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>
 
+     
     </body>
 </html>

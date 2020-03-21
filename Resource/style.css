@@ -1,12 +1,11 @@
 body {
-    /*background-image: url(https://am-prod-client-files.ppub-tmaws.io/49ersnew/s3fs-public/images/interstitial/background/17TIX_ACCOUNT-MANAGER_BACKGROUND_4.jpg);*/
     background-image: url('bg.jpg');
-    background-position: center top;
+    background-position: center center fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
-    min-width: 1680px;
-    font-family: Verdana, sans-serif;
+    background-size: cover;
+    min-width: 900px;
+    font-family:'Georgia';
     font-size: 12px;
     margin: 0px;
 }
@@ -15,8 +14,14 @@ body:focus {
     outline: none;
 }
 
+.center{
+  margin-left:50%;
+  transform: translate(-50%,0);
+  width: 80%;
+}
+
+
 #header {
-    /*background-color: #AA0000;*/
     width: 100%;
     top: 0;
     left: 0;
@@ -24,6 +29,7 @@ body:focus {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 #header-logo {
     /*background-color: #AA0000;*/
@@ -36,43 +42,50 @@ body:focus {
 #header-text {
     /*background-color: #AA0000;*/
     top: 32px;
-    left: 50%;
-    padding-left: 42%;
+    /*left: 50%;*/
+    /*padding-left: 42%;*/
     padding-top: 32px;
-    float: center;
+    /*float: center;*/
+    text-align: center;
     font-size: 40px;
+    font-family:'Georgia';
     /* the space between content and border */
     color: black;
     font-weight: bold;
-}
-
-#bottom {
-    /*background-color: #1F2120;*/
-    bottom: 10px;
-    padding-top: 40px;
-    width: 800px;
-    color: white;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+#bottom {
+    /*background-color: #1F2120;*/
+    bottom: 20px;
+    padding-top: 10px;
+    width: 800px;
+    color: white;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+
 #copyright {
     /*background-color: #1F2120;*/
-    position:absolute;
-    bottom: 10px;
-    width: 800px;
+   /*position:absolute;*/
+    bottom: 20px;
+    width: 100%;
     font-size: 12px;
     color: black;
     text-align: center;
-    padding: 0px 0 0px 0;
+    /*padding: 0px 0 0px 0;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 
 #content {
-    padding-top: 80px;
-    padding-bottom: 480px;
+    padding-top: 40px;
+    padding-bottom: 400px;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -129,12 +142,15 @@ body:focus {
     background-color: #AA0000;
     outline: none;
     border: none;
-    height: 30px;
-    width: 50%;
-    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Georgia';
     color: white;
     text-align: center;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -156,7 +172,7 @@ body:focus {
 }
 
 #message {
-    padding-bottom: 150px;
+    padding-bottom: 120px;
     width: 800px;
     text-align: center;
     color: black;
@@ -164,4 +180,72 @@ body:focus {
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button button {
+    background-color: #AA0000;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Georgia';
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background: #B3995D;
+    color: white;
+}
+
+
+#button-box {
+    width: 350px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    /*color: #fff;*/
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+}
+
+#button-box input[type="submit"]{
+    background-color: #AA0000;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Georgia';
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#button-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #B3995D;
+    color: white;
+}
+
+.right {
+  position: fixed;
+  float:right;
+  right: 0px;
+  top: 0px;
+  width: 300px;
+  padding: 10px;
 }
