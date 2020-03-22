@@ -26,7 +26,7 @@
 
         <div id="content">
             <div id="message">
-            Welcome to our application<br><br>Please Click the following
+            Welcome to my application<br><br>Please Click the following
             </div>
 
 
@@ -209,7 +209,10 @@
             </div>
         </div>
 		
-        <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>         
+        <div id="bottom">
+            <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>
+        </div>
+                 
     </body>
 </html>
 

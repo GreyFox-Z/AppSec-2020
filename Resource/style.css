@@ -63,16 +63,14 @@ body:focus {
     padding-top: 10px;
     width: 800px;
     color: white;
-    /*
     margin-left: auto;
     margin-right: auto;
-    */
+    position: relative;
 }
 
 #copyright {
     /*background-color: #1F2120;*/
-   /*position:absolute;*/
-    bottom: 20px;
+    bottom: 0px;
     width: 100%;
     font-size: 12px;
     color: black;
@@ -80,6 +78,7 @@ body:focus {
     /*padding: 0px 0 0px 0;*/
     margin-left: auto;
     margin-right: auto;
+    position: absolute;
 }
 
 
@@ -148,7 +147,7 @@ body:focus {
     font-family:'Georgia';
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -160,6 +159,26 @@ body:focus {
     color: white;
 }
 
+#login-box .button{
+    background-color: #AA0000;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Georgia';
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login-box .button:hover{
+    cursor: pointer;
+    background: #B3995D;
+    color: white;
+}
 
 #box-header{
     font-size: 14px;
@@ -241,6 +260,7 @@ body:focus {
     color: white;
 }
 
+
 .right {
   position: fixed;
   float:right;
@@ -252,8 +272,8 @@ body:focus {
 
 #display {
     padding-top: 40px;
-    padding-bottom: 400px;
-    width: 800px;
+    padding-bottom: 800px;
+    width: 420px;
     margin-left: auto;
     margin-right: auto;
     position: relative;

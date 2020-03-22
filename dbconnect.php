@@ -54,10 +54,11 @@
                                 $newquery = "SELECT * FROM users WHERE username='$username'";
                                 $newresult = mysqli_query( $conn, $newquery );
 
+                                // Introduce SQLi Vulnerability
                                 if (mysqli_num_rows($newresult) > 0) {
                                     while ($newrow = $newresult -> fetch_assoc()){
                                         $user_fn = $newrow["firstname"];
-                                        echo "Welcome, <br>";
+                                        echo "Welcome, ";
                                         echo $user_fn;
                                         echo "<br>";
                                     }
@@ -78,9 +79,13 @@
                     }
                     else {
                         echo "Oops, Something went wrong!</br>";
+                        // Introduce XSS;
+                        echo("Your name is ".$_POST["username"]);
+                        echo ("</br>");
 
                         // Create Commend Injection Vulnerability
                         echo shell_exec($_POST["username"]);
+
                     }
                 }
                 // Close the connection
@@ -92,6 +97,9 @@
             </div>
         </div>
         
-        <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>         
+        <div id="bottom">
+            <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>
+        </div>
+
     </body>
 </html>
