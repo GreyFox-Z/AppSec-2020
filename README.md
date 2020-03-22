@@ -37,6 +37,7 @@ Run Installer
 
 That's all. XAMPP is now installed below the `/opt/lampp` directory.
 
+#### Start `XAMPP`
 In the CLi,  we could run the following command to start `XAMPP`:
 
 `sudo /opt/lampp/lampp start`
@@ -53,21 +54,21 @@ Please go to `setup` at first to create a sufficient database. After that, pleas
 ## Examples of Found Vulnerabilities
 #### 1. XSS 
 Testing:
-![XSS01](Resource/xss01.png)
+![XSS01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/xss01.png)
 
 Result:
-![XSS02](Resource/xss02.png)
+![XSS02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/xss02.png)
 
 #### 2. SQLi 
 Testing:
-![SQLi01](Resource/sqli01.png)
+![SQLi01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/sqli01.png)
 
 Result:
-![SQLi02](Resource/sqli02.png)
+![SQLi02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/sqli02.png)
 
 #### 3. Command Execution
 Testing:
-![Command01](Resource/command01.png)
+![Command01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/command01.png)
 
 Result:
-![Command02](Resource/command02.png)
+![Command02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/command02.png)
