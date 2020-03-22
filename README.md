@@ -46,28 +46,28 @@ In the CLi,  we could run the following command to start `XAMPP`:
 
 ## How to run this application?
 When open a web browser, go to `localhost/Test-Web-App`.  (I saved into a folder as Test-Web-App)
-![VulnWeb](Resource/Home.png)
+![HomePage](Resource/Home.png)
 
 Please go to `setup` at first to create a sufficient database. After that, please direct to `login` panel to perform test.
 
 ## Examples of Found Vulnerabilities
 #### 1. XSS 
 Testing:
-![VulnWeb](Resource/xss01.png)
+![XSS01](Resource/xss01.png)
 
 Result:
-![VulnWeb](Resource/xss02.png)
+![XSS02](Resource/xss02.png)
 
 #### 2. SQLi 
 Testing:
-![VulnWeb](Resource/sqli01.png)
+![SQLi01](Resource/sqli01.png)
 
 Result:
-![VulnWeb](Resource/sqli02.png)
+![SQLi02](Resource/sqli02.png)
 
 #### 3. Command Execution
 Testing:
-![VulnWeb](Resource/command01.png)
+![Command01](Resource/command01.png)
 
 Result:
-![VulnWeb](Resource/command02.png)
+![Command02](Resource/command02.png)
