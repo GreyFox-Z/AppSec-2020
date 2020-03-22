@@ -1,4 +1,5 @@
 # A Vulnerable Web Application
+
 ## Learning Objective
 
 Based on what you know about the various typed of vulnerabilities that an application can be subject to, I'd like you to write a small app that is vulnerable to at least two security issues. 
@@ -21,11 +22,11 @@ Examples:
 Your deliverable can either be a virtual machine running your app or instructions on how to install and run it. Please also provide a short write up of the vulnerabilities you’ve included. 
 
 ## Installation 
-#### Pre-requested:
+#### Pre-requested
 
 - `XAMPP` is required to run this application. (I only tested on Kali Linux) <br> Please download the `XAMPP` with this [Link](https://www.apachefriends.org/download.html)
 
-#### Installation Process:
+#### Installation Process
 Change the permissions to the installer 
 
 `chmod 755 xampp-linux-*-installer.run`
@@ -36,22 +37,37 @@ Run Installer
 
 That's all. XAMPP is now installed below the `/opt/lampp` directory.
 
+In the CLi,  we could run the following command to start `XAMPP`:
+
+`sudo /opt/lampp/lampp start`
+
+#### Configuration
+- Download this application to `/opt/lampp/htdocs` with following command: <br> `https://github.com/GreyFox-Z/AppSec-2020.git`
 
 ## How to run this application?
+When open a web browser, go to `localhost/Test-Web-App`.  (I saved into a folder as Test-Web-App)
+![VulnWeb](Resource/Home.png)
 
+Please go to `setup` at first to create a sufficient database. After that, please direct to `login` panel to perform test.
 
-## Examples of Vulnerabilities
-
+## Examples of Found Vulnerabilities
 #### 1. XSS 
-```
-Project 1> python .\Image_Size_Modifier.py Test.jpg
-Completed...
-The modified image could be found as Test_modified.jpg
-```
+Testing:
+![VulnWeb](Resource/xss01.png)
 
+Result:
+![VulnWeb](Resource/xss02.png)
 
 #### 2. SQLi 
+Testing:
+![VulnWeb](Resource/sqli01.png)
 
-
+Result:
+![VulnWeb](Resource/sqli02.png)
 
 #### 3. Command Execution
+Testing:
+![VulnWeb](Resource/command01.png)
+
+Result:
+![VulnWeb](Resource/command02.png)
