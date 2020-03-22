@@ -46,7 +46,7 @@ In the CLi,  we could run the following command to start `XAMPP`:
 
 ## How to run this application?
 When open a web browser, go to `localhost/Test-Web-App`.  (I saved into a folder as Test-Web-App)
-![HomePage](Resource/Home.png)
+![HomePage](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/Home.PNG)
 
 Please go to `setup` at first to create a sufficient database. After that, please direct to `login` panel to perform test.
 
