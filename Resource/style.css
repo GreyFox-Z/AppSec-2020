@@ -128,7 +128,7 @@ body:focus {
     margin-bottom: 20px;
 }
 
-#login-box input[type="account"], input[type="password"]{
+#login-box input[type="username"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -248,4 +248,34 @@ body:focus {
   top: 0px;
   width: 300px;
   padding: 10px;
+}
+
+#display {
+    padding-top: 40px;
+    padding-bottom: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 25pt;
+    color: black;
+}
+
+.bottom {
+    position: fixed;
+    padding: 10px;
+}
+.bottom .button {
+    background-color: #AA0000;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    font-family:'Georgia';
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
