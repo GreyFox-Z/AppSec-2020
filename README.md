@@ -54,21 +54,21 @@ Please go to `setup` at first to create a sufficient database. After that, pleas
 ## Examples of Found Vulnerabilities
 #### 1. XSS 
 Testing:
-![XSS01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/xss01.png)
+![XSS01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/xss01.PNG)
 
 Result:
-![XSS02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/xss02.png)
+![XSS02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/xss02.PNG)
 
 #### 2. SQLi 
 Testing:
-![SQLi01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/sqli01.png)
+![SQLi01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/sqli01.PNG)
 
 Result:
-![SQLi02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/sqli02.png)
+![SQLi02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/sqli02.PNG)
 
 #### 3. Command Execution
 Testing:
-![Command01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/command01.png)
+![Command01](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/command01.PNG)
 
 Result:
-![Command02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/command02.png)
+![Command02](https://github.com/GreyFox-Z/AppSec-2020/blob/Project-2-Write-a-Vulnerable-Web-App/Resource/command02.PNG)
