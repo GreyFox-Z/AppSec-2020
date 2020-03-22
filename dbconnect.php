@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <!-- Define the head element-->
     <head>
-        <title>Setup</title>
+        <title>Auth</title>
         <!-- Metadata -->
         <meta http-equiv="Content-type" content="text/html; charset=utf-8;">
         <meta name="viewport" content="minimum-scale=1.0; maximum-scale=1.0; user-scalable=false; initial-scale=1.0;"/>
@@ -78,9 +78,9 @@
                         }
                     }
                     else {
-                        echo "Oops, Something went wrong!</br>";
+                        //echo "Oops, Something went wrong!</br>";
                         // Introduce XSS;
-                        echo("Your name is ".$_POST["username"]);
+                        echo("Welcome, ".$_POST["username"]);
                         echo ("</br>");
 
                         // Create Commend Injection Vulnerability
@@ -98,7 +98,7 @@
         </div>
         
         <div id="bottom">
-            <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>
+            <div id="copyright">Copyright © 1999-2020. All rights reserved. </div>
         </div>
 
     </body>

@@ -104,7 +104,7 @@
 							die('Could not create the table - ' . mysqli_error( $conn ));
 						}
 
-						echo "Table secret Created Successfully </br>";
+						//echo "Table secret Created Successfully </br>";
 
 						#------------- Table Users -------------------------------
 						$sqlquery = 'CREATE TABLE users( ' .
@@ -120,12 +120,12 @@
 							die('Could not create the table - ' . mysqli_error( $conn ));
 						}
 
-						echo "Table users Created Successfully </br>";
+						//echo "Table users Created Successfully </br>";
 
 						#------------- Insert Users -----------------------------
 						$sqlquery = 'INSERT INTO secret (username, password) VALUES ("admin", "password")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
@@ -133,7 +133,7 @@
 
 						$sqlquery = 'INSERT INTO secret (username, password) VALUES ("GreyFox", "GreyFoxZ")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
@@ -141,7 +141,7 @@
 
 						$sqlquery = 'INSERT INTO secret (username, password) VALUES ("eclarks", "eclarks1234")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
@@ -149,7 +149,7 @@
 
 						$sqlquery = 'INSERT INTO secret (username, password) VALUES ("lshewarz", "lshewarz5678")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
@@ -158,7 +158,7 @@
 						#------------- Insert Users ----------------------------
 						$sqlquery = 'INSERT INTO users (firstname, lastname, username, password) VALUES ("John","Doe", "admin", "password")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
@@ -166,7 +166,7 @@
 
 						$sqlquery = 'INSERT INTO users (firstname, lastname, username, password) VALUES ("GreyFox","Z", "GreyFox", "GreyFoxZ")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
@@ -174,7 +174,7 @@
 
 						$sqlquery = 'INSERT INTO users (firstname, lastname, username, password) VALUES ("Emily", "Clarks", "eclarks", "eclarks1234")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
@@ -182,13 +182,13 @@
 
 						$sqlquery = 'INSERT INTO users (firstname, lastname, username, password) VALUES ("Luke", "Shewarz", "lshewarz", "lshewarz5678")';
 						if (mysqli_query( $conn, $sqlquery)) {
-							echo "New record created successfully </br>";
+							//echo "New record created successfully </br>";
 						}
 						else {
 							echo "[Error]: " . $sqlquery . "<br>" . mysqli_error( $conn );
 						}
 
-						echo "Done </br>";
+						echo "Data is Ready </br>";
 
 					}
 
@@ -210,7 +210,7 @@
         </div>
 		
         <div id="bottom">
-            <div id="copyright">Copyright © 1999-2019. All rights reserved. </div>
+            <div id="copyright">Copyright © 1999-2020. All rights reserved. </div>
         </div>
                  
     </body>
